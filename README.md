@@ -1,6 +1,7 @@
 # Rahul D G 👋
 
 VLSI | RTL Design | Verilog | SystemVerilog | RISC-V | ASIC
+
 I work on digital hardware and VLSI projects focused on RTL design, digital design, processor architecture, and ASIC design flows.
 
 My work includes designing and verifying RTL using Verilog HDL and SystemVerilog, along with simulation, synthesis, and ASIC flow exploration.
@@ -44,7 +45,6 @@ Tools
 ![Icarus](https://img.shields.io/badge/Icarus-Verilog-lightgrey)
 ![GTKWave](https://img.shields.io/badge/GTKWave-Waveform-yellow)
 ![LibreLane](https://img.shields.io/badge/LibreLane-ASIC-black)
-![LTspice](https://img.shields.io/badge/LTspice-Simulation-blue)
 
 - Cadence
 - Xilinx Vivado
@@ -52,31 +52,30 @@ Tools
 - Icarus Verilog
 - GTKWave
 - LibreLane
-- LTspice
 
 Architectures & Interfaces
 
 ![RISC-V](https://img.shields.io/badge/RISC--V-Architecture-green)
 ![SPI](https://img.shields.io/badge/SPI-Interface-blue)
 ![UART](https://img.shields.io/badge/UART-Interface-orange)
+![AXI4--Lite](https://img.shields.io/badge/AXI4--Lite-Interface-purple)
+![APB](https://img.shields.io/badge/APB-Interface-red)
 
 - RISC-V
 - SPI
 - UART
+- AXI4-Lite
+- APB
 
 
 🚀 Projects
 
-5-Stage Pipelined RISC-V Processor
+5-Stage Pipelined RISC-V Processor with Memory and SPI Interface
 
 Verilog HDL | RISC-V | Icarus Verilog | GTKWave | Yosys
 
-- Designed and implemented a 5-stage pipelined RISC-V processor.
-- Implemented IF, ID, EX, MEM and WB pipeline stages.
-- Integrated instruction and data memory.
-- Implemented hazard detection and data forwarding logic.
-- Verified the design using RTL simulation and waveform analysis.
-- Performed synthesis and design checking using Yosys.
+- Designed a 5-stage pipelined RISC-V processor with instruction/data memory, forwarding, and hazard detection logic.
+- Verified RTL using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL schematic generation.
 
 🔗 GitHub Repository:
 
@@ -85,28 +84,32 @@ https://github.com/gunarirahuld-afk/5-Stage-Pipelined-RISC-V-Processor
 
 SPI Master-Slave Communication System
 
-SystemVerilog | RTL Design | LibreLane | SKY130
+SystemVerilog | Icarus Verilog | GTKWave | Yosys | LibreLane | SKY130
 
-- Designed an SPI master-slave communication system using SystemVerilog.
-- Implemented and verified the RTL design.
-- Implemented the SKY130 RTL-to-GDSII flow using LibreLane.
+- Designed an 8-bit SPI master-slave system supporting full-duplex communication and bidirectional data transfer.
+- Verified RTL using Icarus Verilog and GTKWave, synthesized using Yosys, and completed SKY130 RTL-to-GDSII implementation using LibreLane with DRC and LVS verification.
 
-
-UART Transmitter and Receiver
-
-Verilog HDL | RTL Design
-
-- Designed UART transmitter and receiver modules using Verilog HDL.
-- Implemented serial data transmission and reception logic.
-- Verified the RTL functionality through simulation.
+🔗 GitHub Repository:
 
 
-6T SRAM Cell Design and Analysis
+AXI4-Lite to APB Bridge
 
-CMOS | LTspice
+SystemVerilog | Icarus Verilog | GTKWave | Yosys
 
-- Designed and analyzed a 6T SRAM cell.
-- Studied memory cell operation through transistor-level simulation.
+- Designed a 32-bit AXI4-Lite to APB bridge with FSM-based control for AXI write/read transactions and APB peripheral access.
+- Verified read/write transactions through RTL simulation and GTKWave, followed by Yosys synthesis and RTL schematic generation.
+
+🔗 GitHub Repository:
+
+
+Advanced Memory Controller
+
+Verilog HDL
+
+– Designed a memory controller for address-based read/write operations using Verilog HDL.– Verified multiple memory accesses using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL
+schematic generation
+
+🔗 GitHub Repository:
 
 
 📚 Currently Learning
