@@ -6,10 +6,15 @@ I work on digital hardware and VLSI projects focused on RTL design, digital desi
 
 My work includes designing and verifying RTL using Verilog HDL and SystemVerilog, along with simulation, synthesis, and ASIC flow exploration.
 
-
 🔧 Skills
 
 RTL & Digital Design
+
+![Verilog](https://img.shields.io/badge/Verilog-HDL-blue)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-RTL-orange)
+![RTL](https://img.shields.io/badge/RTL-Design-green)
+![Digital Design](https://img.shields.io/badge/Digital-Design-purple)
+
 - Verilog HDL
 - SystemVerilog
 - RTL Design
@@ -20,6 +25,11 @@ RTL & Digital Design
 - Computer Architecture
 
 VLSI & ASIC
+
+![ASIC](https://img.shields.io/badge/ASIC-Design-red)
+![VLSI](https://img.shields.io/badge/VLSI-Design-blueviolet)
+![RTL-to-GDSII](https://img.shields.io/badge/RTL--to--GDSII-Flow-darkgreen)
+
 - ASIC Design Flow
 - RTL Synthesis
 - RTL Schematic
@@ -28,6 +38,15 @@ VLSI & ASIC
 - RTL-to-GDSII Flow
 
 Tools
+
+![Cadence](https://img.shields.io/badge/Cadence-EDA-red)
+![Vivado](https://img.shields.io/badge/Xilinx-Vivado-blue)
+![Yosys](https://img.shields.io/badge/Yosys-Synthesis-orange)
+![Icarus](https://img.shields.io/badge/Icarus-Verilog-lightgrey)
+![GTKWave](https://img.shields.io/badge/GTKWave-Waveform-yellow)
+![LibreLane](https://img.shields.io/badge/LibreLane-ASIC-black)
+![LTspice](https://img.shields.io/badge/LTspice-Simulation-blue)
+
 - Cadence
 - Xilinx Vivado
 - Yosys
@@ -37,6 +56,11 @@ Tools
 - LTspice
 
 Architectures & Interfaces
+
+![RISC-V](https://img.shields.io/badge/RISC--V-Architecture-green)
+![SPI](https://img.shields.io/badge/SPI-Interface-blue)
+![UART](https://img.shields.io/badge/UART-Interface-orange)
+
 - RISC-V
 - SPI
 - UART
@@ -56,6 +80,7 @@ Verilog HDL | RISC-V | Icarus Verilog | GTKWave | Yosys
 - Performed synthesis and design checking using Yosys.
 
 🔗 GitHub Repository:
+
 https://github.com/gunarirahuld-afk/5-Stage-Pipelined-RISC-V-Processor
 
 
@@ -99,9 +124,11 @@ CMOS | LTspice
 🔗 Connect
 
 💼 LinkedIn:
+
 https://www.linkedin.com/in/rahul-gunari-b31350312/
 
 📧 Email:
+
 gunarirahuld@gmail.com
 
 
