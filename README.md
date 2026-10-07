@@ -73,40 +73,32 @@ Architectures & Interfaces
 
 Verilog HDL | RISC-V | Icarus Verilog | GTKWave | Yosys
 
-* Designed a 5-stage pipelined RISC-V processor with instruction/data memory, forwarding, and hazard detection logic.
-* Verified RTL using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL schematic generation.
+- Designed a 5-stage pipelined RISC-V processor with instruction/data memory, forwarding, and hazard detection logic.
+- Verified RTL using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL schematic generation.
 
-🔗 GitHub Repository:
-https://github.com/gunarirahuld-afk/5-Stage-Pipelined-RISC-V-Processor
 
 SPI Master-Slave Communication System
 
 SystemVerilog | Icarus Verilog | GTKWave | Yosys | LibreLane | SKY130
 
-* Designed an 8-bit SPI master-slave system supporting full-duplex communication and bidirectional data transfer.
-* Verified RTL using Icarus Verilog and GTKWave, synthesized using Yosys, and completed SKY130 RTL-to-GDSII implementation using LibreLane with DRC and LVS verification.
+- Designed an 8-bit SPI master-slave system supporting full-duplex communication and bidirectional data transfer.
+- Verified RTL using Icarus Verilog and GTKWave, synthesized using Yosys, and completed SKY130 RTL-to-GDSII implementation using LibreLane with DRC and LVS verification.
 
-🔗 GitHub Repository:
-[ADD YOUR SPI REPOSITORY LINK]
 
 AXI4-Lite to APB Bridge
 
 SystemVerilog | Icarus Verilog | GTKWave | Yosys
 
-* Designed a 32-bit AXI4-Lite to APB bridge with FSM-based control for AXI write/read transactions and APB peripheral access.
-* Verified read/write transactions through RTL simulation and GTKWave, followed by Yosys synthesis and RTL schematic generation.
+- Designed a 32-bit AXI4-Lite to APB bridge with FSM-based control for AXI write/read transactions and APB peripheral access.
+- Verified read/write transactions through RTL simulation and GTKWave, followed by Yosys synthesis and RTL schematic generation.
 
-🔗 GitHub Repository:
-[ADD YOUR AXI4-LITE TO APB REPOSITORY LINK]
 
 Advanced Memory Controller
 
 Verilog HDL
 
-* Designed an advanced memory controller using Verilog HDL.
-
-🔗 GitHub Repository:
-[ADD YOUR ADVANCED MEMORY CONTROLLER REPOSITORY LINK]
+– Designed a memory controller for address-based read/write operations using Verilog HDL.– Verified multiple memory accesses using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL
+schematic generation
 
 📚 Currently Learning
 
