@@ -1,7 +1,6 @@
-Hi, I'm Rahul D G 👋
+# Rahul D G 👋
 
 VLSI | RTL Design | Verilog | SystemVerilog | RISC-V | ASIC
-
 I work on digital hardware and VLSI projects focused on RTL design, digital design, processor architecture, and ASIC design flows.
 
 My work includes designing and verifying RTL using Verilog HDL and SystemVerilog, along with simulation, synthesis, and ASIC flow exploration.
