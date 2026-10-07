@@ -69,7 +69,7 @@ Architectures & Interfaces
 
 🚀 Projects
 
-5-Stage Pipelined RISC-V Processor with Memory and SPI Interface
+**5-Stage Pipelined RISC-V Processor with Memory and SPI Interface**
 
 Verilog HDL | RISC-V | Icarus Verilog | GTKWave | Yosys
 
@@ -77,7 +77,7 @@ Verilog HDL | RISC-V | Icarus Verilog | GTKWave | Yosys
 - Verified RTL using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL schematic generation.
 
 
-SPI Master-Slave Communication System
+**SPI Master-Slave Communication System**
 
 SystemVerilog | Icarus Verilog | GTKWave | Yosys | LibreLane | SKY130
 
@@ -85,7 +85,7 @@ SystemVerilog | Icarus Verilog | GTKWave | Yosys | LibreLane | SKY130
 - Verified RTL using Icarus Verilog and GTKWave, synthesized using Yosys, and completed SKY130 RTL-to-GDSII implementation using LibreLane with DRC and LVS verification.
 
 
-AXI4-Lite to APB Bridge
+**AXI4-Lite to APB Bridge**
 
 SystemVerilog | Icarus Verilog | GTKWave | Yosys
 
@@ -93,12 +93,13 @@ SystemVerilog | Icarus Verilog | GTKWave | Yosys
 - Verified read/write transactions through RTL simulation and GTKWave, followed by Yosys synthesis and RTL schematic generation.
 
 
-Advanced Memory Controller
+**Advanced Memory Controller**
 
 Verilog HDL
 
-– Designed a memory controller for address-based read/write operations using Verilog HDL.– Verified multiple memory accesses using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL
-schematic generation
+– Designed a memory controller for address-based read/write operations using Verilog HDL.
+– Verified multiple memory accesses using Icarus Verilog and GTKWave, followed by Yosys synthesis and RTL schematic generation
+
 
 📚 Currently Learning
 
